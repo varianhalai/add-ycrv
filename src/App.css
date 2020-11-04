@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.downloadButton {
+  max-width: 350px;
+}
+
+.downloadButton:hover {
+  transform: scale(1.05);
+}
+
+.downloadButton:active {
+  transform: scale(0.95);
+}
