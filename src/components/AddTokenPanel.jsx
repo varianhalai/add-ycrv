@@ -21,11 +21,11 @@ class AddTokenPanel extends Component {
 
   constructor (props) {
     const {
-      tokenName = 'yCRV',
-        tokenSymbol = 'yCRV',
+      tokenName = 'yCrv',
+        tokenSymbol = 'yCrv',
         tokenDecimals = 18,
         tokenAddress = ycrvAddress,
-        tokenImage = yearn,
+        tokenImage = "https://cryptotips.eu/wp-content/uploads/2020/09/yearn-finance-review.png",
         tokenNet = '1',
         message = '',
         errorMessage = '',
