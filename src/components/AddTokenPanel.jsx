@@ -150,12 +150,12 @@ class AddTokenPanel extends Component {
                   if (result.result) {
                     this.setState({
                       errorMessage: '',
-                      message: 'Token was added to wallet!',
+                      message: `${tokenName} was added to wallet!`,
                     })
                   } else {
                     this.setState({
                       errorMessage: '',
-                      message: 'Token has not been added to wallet.',
+                      message: `${tokenName} has not been added to wallet.`,
                     })
                   }
                 }
